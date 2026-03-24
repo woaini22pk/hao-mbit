@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hao-mbit/static/css/main.60f7470f.css",
+    "main.js": "/hao-mbit/static/js/main.e1a0eb5d.js",
+    "static/js/453.8192092a.chunk.js": "/hao-mbit/static/js/453.8192092a.chunk.js",
+    "index.html": "/hao-mbit/index.html",
+    "main.60f7470f.css.map": "/hao-mbit/static/css/main.60f7470f.css.map",
+    "main.e1a0eb5d.js.map": "/hao-mbit/static/js/main.e1a0eb5d.js.map",
+    "453.8192092a.chunk.js.map": "/hao-mbit/static/js/453.8192092a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60f7470f.css",
+    "static/js/main.e1a0eb5d.js"
+  ]
+}
