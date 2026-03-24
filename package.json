@@ -2,6 +2,7 @@
   "name": "hao-mbit",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://woaini22pk.github.io/hao-mbit",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
