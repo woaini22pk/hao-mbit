@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import HomePage from './components/HomePage';
 import TestPage from './components/TestPage';
 import ResultPage from './components/ResultPage';
+import { personalityTypes } from './data/questions';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -11,7 +12,7 @@ function App() {
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
     const resultParam = urlParams.get('result');
-    if (resultParam && /^[IESNTFJP]{4}$/.test(resultParam)) {
+    if (resultParam && /^[IESNTFJP]{4}$/.test(resultParam) && personalityTypes[resultParam]) {
       setTestResult(resultParam);
       setCurrentPage('result');
     }
